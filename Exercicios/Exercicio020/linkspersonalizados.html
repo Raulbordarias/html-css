@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links Personalizados</title>
+    <style>
+        body {
+            background-color: #ca9df5;
+            font: 1em normal normal Arial, Verdana, sans-serif;
+            color: #e2e742;
+            
+        }
+        a {
+            text-decoration: none;
+            font-size: 1.1em;
+            color: #f9ff48;
+        }
+
+        a:hover {
+            color: #7a24ca;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: white;
+        }
+
+        a::after {
+            content: "[link]";
+        }
+
+        a::before {
+            content: "[link}";
+        }
+
+        h1:hover {
+            color: #7a24ca;;
+        }
+
+        abbr {
+            text-decoration: none;;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><abbr title="lista de links personalizados abaixo">links Personalizados</abbr></h1>
+    <ul>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">www.adobrecolors.com</a></li>
+        <li><a href="https://pixlr.com/br/x/#editor" target="_blank" id="especial">www.editordefotos.com</a></li>
+        <li><a href="https://favicon.io" target="_blank">www.crieseusfavicons.com</a></li>
+    </ul>
+</body>
+</html>

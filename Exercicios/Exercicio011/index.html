@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutiplas medias</title>
+</head>
+<body>
+    <h1>Imagens em Tamanhos diferentes</h1>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+     
+     <h1>Reproduzindo Audios</h1>
+     <p><strong>vamos aprender a reproduzir audios em <abbr title="hyper text markup language version 5">HTML 5</abbr></strong></p>
+     <audio preload="metadata" controls>
+
+        <source src="audios/audio1.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não tem suporte para audios, descupe :(, recomendamos que você instale o mais indicado, ou atualize o seu</p>
+     </audio>
+</body>
+</html>
