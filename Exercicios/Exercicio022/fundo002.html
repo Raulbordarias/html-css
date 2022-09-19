@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de Background</title>
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/736x/05/0a/1a/050a1a3cfac4c857105469438327eaa7.jpg);
+            background-size: 400px 400px;
+        }
+
+        body > h1 {
+            color: rgb(57, 54, 54);
+            font: normal normal 3.5em arial, verdana, helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        body > h1:hover {
+            color: rgb(130, 124, 124);
+        }
+        
+        body > h1::selection {
+            background-color: rgba(241, 232, 232, 0.436);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat Land</h1>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-position</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        body > div.bloco {
+            height: 100px;
+            background-image: url("imagens/wallpaper003.jpg");
+            margin: 15px;
+            border: black solid 5px;
+            border-radius: 5px;
+        }
+
+        div#b1 {
+            background-position: top left;
+        }
+        div#b2 {
+            background-position: left bottom;
+        }
+        div#b3 {
+            background-position: left center;
+        }
+        div#b4 {
+            background-position: center center;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, rgb(191, 234, 241), blue);
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="b1">
+
+    </div>
+    <div class="bloco" id="b2">
+
+    </div>
+    <div class="bloco" id="b3">
+
+    </div>
+    <div class="bloco" id="b4">
+
+    </div>
+</body>
+</html>
