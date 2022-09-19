@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #7ABEE6;
+    --color2: #34A2E0;
+    --color3: #2D94AD;
+    --color4: #365861;
+    --darkblue: #195361;
+
+}
+
+* {
+    margin: 0px;
+}
+body {
+    background-color: #94dcee;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4703/4703650.png);
+    background-size: 100px;
+    
+}
+header {
+    background-color: var(--color2);
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+header > p {
+    color: white;
+    font: normal normal 1.2em arial, helvetica, sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.478);
+    margin: auto;
+    margin-top: 0px;
+    min-width: 100px;
+    max-width: 800px;
+}
+
+main > h1 {
+    font: normal normal 2.5em arial, helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+main > p {
+    text-align: justify;
+    padding: 10px;
+    font: normal normal 1em arial, helvetica, sans-serif;
+}
+
+main > p > a {
+    color: var(--color3);
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    color: #66b8e8;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    margin-top: 25px;
+    background-color: #365861;
+    color: white;
+    text-align: center;
+    border-radius: 4px 4px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
