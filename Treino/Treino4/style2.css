@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: rgb(204, 204, 204);
+    --cor2: rgb(160, 160, 160);
+    --cor3: rgb(112, 112, 112);
+    --cor4: rgb(76, 76, 76);
+    --darkgrey:  rgb(40, 40, 40);
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+        height: 100.03vh;
+        background-image: linear-gradient(to top, var(--cor4), var(--cor1));
+ 
+}
+
+main > a {
+    color: white;
+    background-color: var(--cor3);
+    text-decoration: none;
+    display:block;
+    margin: 30px;
+    min-height: 40px;
+    max-height: 100px;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+
+}
