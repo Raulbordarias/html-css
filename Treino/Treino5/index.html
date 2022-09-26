@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Stocks</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        body {
+            background-color: rgb(39, 30, 38);
+        }
+
+        body > header > p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 2em;
+        }
+        header {
+            background-color: rgb(52, 40, 50);
+            height: 10vh;
+            padding: 3vh;
+            
+        }
+
+        #gradiente {
+            background-image: linear-gradient(to top, rgb(178, 178, 65), rgb(195, 118, 11), rgb(100, 24, 100));  
+            height: 2vh;
+            border-radius: 0px 0px 4px 4px;
+        }
+
+        img {
+            position: absolute;
+            height: 40vh;
+            width: 40vh;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 15px;
+        }
+
+        #gradiente_foto {
+            background-image: linear-gradient(to top, rgb(178, 178, 65), rgb(195, 118, 11), rgb(100, 24, 100));
+            height: 43vh;
+            width: 43vh;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            border-radius: 15px;
+
+            transform: translate(-50%, -50%);
+        }
+
+        img:hover {
+            height: 42vh;
+            width: 42vh;
+
+            transition: 0.5s;
+        }
+
+        main > p {
+            font: normal normal 1em arial, helvetica, verdana, sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 3em;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p>Julien Michael Bordarias<p>
+    </header>
+    <div id="gradiente"></div>
+    <main>
+        <p>Ver Fotos De Julien</p>
+        <div id="gradiente_foto"></div>
+        <img src="media/julien_olhando_decima.jpeg" alt="Imagem de Julien">
+    </main>
+</body>
+</html>
